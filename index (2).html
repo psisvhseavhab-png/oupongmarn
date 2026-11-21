@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ou Pongmarn Eco-farm | ចំការអូពងមាន់ ហូមស្ទេ — Homestay in Chi Phat, Koh Kong</title>
+    <meta name="description" content="Escape to Ou Pongmarn Eco-farm (ចំការអូពងមាន់ ហូមស្ទេ), a serene 5-room eco-farm and homestay nestled in the Cardamom Mountains of Chi Phat, Koh Kong, Cambodia.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Plus Jakarta Sans, Playfair Display & Noto Sans Khmer / Kantumruy Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;600;700&family=Noto+Sans+Khmer:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Noto Sans Khmer"', '"Kantumruy Pro"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                        khmer: ['"Noto Sans Khmer"', '"Kantumruy Pro"', 'sans-serif'],
+                    },
+                    colors: {
+                        forest: {
+                            50: '#f2f7f4',
+                            100: '#e0ede5',
+                            200: '#c2dbcd',
+                            300: '#98c1ac',
+                            400: '#6aa186',
+                            500: '#498468',
+                            600: '#366851',
+                            700: '#2b5341',
+                            800: '#234235',
+                            900: '#1b342a',
+                            950: '#0f1f19',
+                        },
+                        earth: {
+                            50: '#fbfaf8',
+                            100: '#f5f2eb',
+                            200: '#e9e2d3',
+                            300: '#d8cbb2',
+                            400: '#c4af8b',
+                            500: '#b3966b',
+                            600: '#9c7c54',
+                            700: '#816344',
+                            800: '#6a513a',
+                            900: '#574331',
+                        },
+                        amberGold: '#d97706',
+                        telegram: '#229ED9',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#FBFBFB] text-stone-800 font-sans antialiased selection:bg-forest-700 selection:text-white overflow-x-hidden">
+
+    <!-- ==================== STICKY NAVIGATION BAR ==================== -->
+    <header class="sticky top-0 z-50 bg-[#FBFBFB]/90 backdrop-blur-md border-b border-earth-200/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Brand Logo & Custom SVG Emblem -->
+                <a href="#" class="flex items-center gap-3 group focus:outline-none">
+                    <div class="w-11 h-11 rounded-2xl bg-forest-800 flex items-center justify-center text-earth-100 shadow-md group-hover:bg-forest-700 transition-colors">
+                        <!-- Custom Eco-farm Leaf & Mountain SVG Emblem -->
+                        <svg class="w-7 h-7" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 4C11 10 7 16.5 7 22C7 27.5 11.9 32 18 32C24.1 32 29 27.5 29 22C29 16.5 25 10 18 4Z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 11V31" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M18 18L23 14" stroke="#d97706" stroke-width="1.8" stroke-linecap="round"/>
+                            <path d="M18 23L13 19" stroke="#d97706" stroke-width="1.8" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif font-bold text-lg sm:text-xl text-forest-950 leading-tight tracking-tight">Ou Pongmarn</span>
+                        <span class="block text-xs font-medium text-forest-700 tracking-wider uppercase">Eco-farm &bull; <span class="font-khmer">ចំការអូពងមាន់ ហូមស្ទេ</span></span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-stone-600">
+                    <a href="#about" class="hover:text-forest-800 transition-colors py-2">About & Rooms</a>
+                    <a href="#video-showcase" class="hover:text-forest-800 transition-colors py-2">Video Emblem</a>
+                    <a href="#gallery" class="hover:text-forest-800 transition-colors py-2">Photo Gallery</a>
+                    <a href="#contact" class="hover:text-forest-800 transition-colors py-2">Location & Contact</a>
+                </nav>
+
+                <!-- Desktop CTA Buttons -->
+                <div class="hidden sm:flex items-center gap-2.5">
+                    <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-telegram/10 text-telegram hover:bg-telegram hover:text-white font-semibold text-sm transition-all duration-200">
+                        <i class="fa-brands fa-telegram text-base"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="#contact" 
+                       class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-forest-800 text-white hover:bg-forest-700 font-semibold text-sm shadow-sm transition-all duration-200">
+                        <i class="fa-solid fa-phone text-xs text-amber-400"></i>
+                        <span>Book / Call</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu"
+                        class="md:hidden p-2.5 rounded-xl text-forest-900 hover:bg-earth-100 focus:outline-none">
+                    <i class="fa-solid fa-bars text-xl" id="mobile-menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#FBFBFB] border-b border-earth-200 px-4 pt-2 pb-5 space-y-2 shadow-lg">
+            <a href="#about" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-stone-700 hover:bg-forest-50 hover:text-forest-800">About & 5-Room Homestay</a>
+            <a href="#video-showcase" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-stone-700 hover:bg-forest-50 hover:text-forest-800">Video Emblem Showcase</a>
+            <a href="#gallery" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-stone-700 hover:bg-forest-50 hover:text-forest-800">Photo Slideshow & Gallery</a>
+            <a href="#contact" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-stone-700 hover:bg-forest-50 hover:text-forest-800">Location Map & Contact</a>
+            <div class="pt-3 grid grid-cols-2 gap-3">
+                <a href="tel:+85598409677" class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-forest-800 text-white font-semibold text-sm">
+                    <i class="fa-solid fa-phone"></i> 098 409 677
+                </a>
+                <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-telegram text-white font-semibold text-sm">
+                    <i class="fa-brands fa-telegram"></i> Telegram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-forest-950">
+        <!-- Background Scenic Image with Fallback -->
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80" 
+             onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/1b342a/e9e2d3?text=Ou+Pongmarn+Eco-farm+Chi+Phat';"
+             alt="Lush Cardamom Mountains and River near Ou Pongmarn Eco-farm" 
+             class="absolute inset-0 w-full h-full object-cover object-center opacity-55 scale-105 transition-transform duration-1000">
+        
+        <!-- Gradient Overlay for Crisp Text Contrast -->
+        <div class="absolute inset-0 bg-gradient-to-b from-forest-950/75 via-forest-950/55 to-forest-950/90"></div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <!-- Location Pill Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md border border-white/20 text-earth-100 text-xs sm:text-sm font-medium mb-6">
+                <i class="fa-solid fa-location-dot text-amber-400"></i>
+                <span>Chi Phat Ecotourism Community &bull; Koh Kong, Cambodia</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.12] mb-4">
+                Ou Pongmarn Eco-farm
+            </h1>
+            <p class="font-khmer text-xl sm:text-2xl text-amber-300/95 font-semibold mb-6">
+                ចំការអូពងមាន់ ហូមស្ទេ
+            </p>
+
+            <!-- Subtitle -->
+            <p class="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-earth-100/90 leading-relaxed mb-10 font-normal">
+                Reconnect with nature in our peaceful <strong class="text-white font-semibold">5-room eco-farm homestay</strong> tucked deep in the lush Cardamom rainforest. Wake up to misty mountain peaks, organic farm harvests, and tranquil river breezes.
+            </p>
+
+            <!-- Primary Hero Action Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="tel:+85598409677" 
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-amber-500 hover:bg-amber-400 text-forest-950 font-bold text-base shadow-lg shadow-amber-500/20 transition-all duration-200 transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-phone-volume text-lg"></i>
+                    <span>Call Now: 098 409 677</span>
+                </a>
+                <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer" 
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-telegram hover:bg-sky-500 text-white font-bold text-base shadow-lg shadow-telegram/25 transition-all duration-200 transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-telegram text-xl"></i>
+                    <span>Chat on Telegram</span>
+                </a>
+                <a href="#gallery" 
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/25 text-white font-semibold text-base transition-all duration-200">
+                    <i class="fa-regular fa-images"></i>
+                    <span>Explore Photos</span>
+                </a>
+            </div>
+
+            <!-- Quick Key Stats Strip -->
+            <div class="mt-14 pt-8 border-t border-white/15 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+                <div>
+                    <div class="text-2xl sm:text-3xl font-serif font-bold text-amber-400">5 Rooms</div>
+                    <div class="text-xs sm:text-sm text-earth-200 mt-1">Private Eco-Bungalows</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-serif font-bold text-amber-400">100%</div>
+                    <div class="text-xs sm:text-sm text-earth-200 mt-1">Organic Farm Harvest</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-serif font-bold text-amber-400">Chi Phat</div>
+                    <div class="text-xs sm:text-sm text-earth-200 mt-1">Cardamom Mountains</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-serif font-bold text-amber-400">Off-Grid</div>
+                    <div class="text-xs sm:text-sm text-earth-200 mt-1">Pure Forest Serenity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT & 5-ROOM HOMESTAY FEATURES ==================== -->
+    <section id="about" class="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <!-- Left Story Column -->
+            <div class="lg:col-span-6 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-forest-100 text-forest-800 text-xs font-bold uppercase tracking-wider">
+                    <i class="fa-solid fa-seedling"></i> Sustainable Sanctuary
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-950 leading-tight">
+                    Intimate 5-Room Eco-Farm &amp; Authentic Khmer Hospitality
+                </h2>
+                <p class="text-stone-600 text-base sm:text-lg leading-relaxed">
+                    Designed for travelers seeking peace away from crowded tourist hubs, <strong class="text-forest-900">Ou Pongmarn Eco-farm</strong> offers just <strong class="text-forest-900">5 thoughtfully crafted rooms</strong> surrounded by fruit orchards, native bamboo, and forested hills in Chi Phat.
+                </p>
+                <p class="text-stone-600 text-base leading-relaxed">
+                    Whether you are hiking hidden jungle waterfalls, kayaking along the Prek Piphot river at sunrise, or enjoying home-cooked meals picked straight from our organic garden, every moment here moves at nature’s gentle pace.
+                </p>
+
+                <!-- Feature Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                    <div class="p-4 rounded-2xl bg-earth-100/70 border border-earth-200/80 flex items-start gap-3.5">
+                        <div class="w-10 h-10 rounded-xl bg-forest-800 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-forest-950 text-sm sm:text-base">5 Cozy Private Rooms</h3>
+                            <p class="text-xs sm:text-sm text-stone-600 mt-0.5">Clean, breezy timber &amp; eco-design rooms with forest views.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-earth-100/70 border border-earth-200/80 flex items-start gap-3.5">
+                        <div class="w-10 h-10 rounded-xl bg-forest-800 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-forest-950 text-sm sm:text-base">Farm-to-Table Dining</h3>
+                            <p class="text-xs sm:text-sm text-stone-600 mt-0.5">Fresh Khmer dishes prepared with homegrown herbs &amp; vegetables.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-earth-100/70 border border-earth-200/80 flex items-start gap-3.5">
+                        <div class="w-10 h-10 rounded-xl bg-forest-800 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-person-hiking"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-forest-950 text-sm sm:text-base">Jungle &amp; Waterfall Treks</h3>
+                            <p class="text-xs sm:text-sm text-stone-600 mt-0.5">Guided eco-trails, birdwatching &amp; sunset viewpoints in Chi Phat.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-earth-100/70 border border-earth-200/80 flex items-start gap-3.5">
+                        <div class="w-10 h-10 rounded-xl bg-forest-800 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-water"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-forest-950 text-sm sm:text-base">River Kayaking &amp; Calm</h3>
+                            <p class="text-xs sm:text-sm text-stone-600 mt-0.5">Paddle through peaceful mangrove &amp; mountain river channels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Image Collage Card -->
+            <div class="lg:col-span-6">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-earth-100">
+                    <img src="https://op.psisvh.com/DSC06551.jpg" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/1200x900/234235/f5f2eb?text=5-Room+Eco-Homestay+Retreat';"
+                         alt="Wooden Eco-homestay Bungalow Surrounded by Tropical Greenery" 
+                         class="w-full h-[380px] sm:h-[460px] object-cover">
+                    <div class="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 p-4 sm:p-5 rounded-2xl bg-forest-950/85 backdrop-blur-md text-white border border-white/15 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <div>
+                            <span class="text-xs uppercase tracking-wider text-amber-400 font-bold">Direct Host Reservation</span>
+                            <p class="text-sm sm:text-base font-medium text-earth-100 mt-0.5">Speak directly with our family hosts for room availability.</p>
+                        </div>
+                        <a href="tel:+85585556870" class="shrink-0 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-forest-950 font-bold text-sm transition-colors">
+                            <i class="fa-solid fa-phone mr-1.5"></i> 085 556 870
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VIDEO EMBLEM & EXPERIENCE SHOWCASE ==================== -->
+    <section id="video-showcase" class="py-20 bg-forest-950 text-white relative overflow-hidden">
+        <!-- Decorative subtle background glow -->
+        <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-forest-700/20 blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-amber-500/10 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Section Header with Emblem Badge -->
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-forest-800/90 border border-amber-400/40 text-amber-400 shadow-lg mb-5">
+                    <!-- Custom Animated Emblem SVG -->
+                    <svg class="w-9 h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="18" cy="18" r="15" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+                        <path d="M18 7C12.5 11.5 9.5 16.5 9.5 21C9.5 25.4 13.3 29 18 29C22.7 29 26.5 25.4 26.5 21C26.5 16.5 23.5 11.5 18 7Z" fill="#2b5341" stroke="#fbbf24" stroke-width="1.8"/>
+                        <path d="M15.5 15.5L22 19.5L15.5 23.5V15.5Z" fill="#fbbf24"/>
+                    </svg>
+                </div>
+                <span class="block text-xs font-bold uppercase tracking-widest text-amber-400 mb-2">Official Video Emblem</span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
+                    Experience Life at Ou Pongmarn
+                </h2>
+                <p class="text-earth-200/85 text-base sm:text-lg mt-4">
+                    Take a virtual walk through our organic farm gardens, misty morning trails, and peaceful wooden homestay rooms in Chi Phat.
+                </p>
+            </div>
+
+            <!-- Responsive Video Emblem Frame -->
+            <div class="max-w-4xl mx-auto">
+                <div id="video-wrapper" class="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-forest-700/80 bg-forest-900 aspect-video group">
+                    
+                    <!-- Interactive Video Poster Overlay (Plays HTML5 Ambient Nature Video or Custom Embed on Click) -->
+                    <div id="video-poster" class="absolute inset-0 z-20 flex flex-col items-center justify-center text-center p-6 bg-forest-950/40 transition-opacity duration-500">
+                        <img src="https://op.psisvh.com/DSC06551.jpg" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/1400x788/1b342a/fbbf24?text=Ou+Pongmarn+Eco-farm+Video+Showcase';"
+                             alt="Misty Forest Canopy at Ou Pongmarn Eco-farm" 
+                             class="absolute inset-0 w-full h-full object-cover -z-10 group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/40 to-forest-950/40 -z-10"></div>
+
+                        <!-- Emblem Watermark Top Left -->
+                        <div class="absolute top-4 left-4 sm:top-6 sm:left-6 flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-forest-950/75 backdrop-blur-md border border-white/15">
+                            <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
+                            <span class="text-xs font-semibold tracking-wide text-earth-100">OU PONGMARN ECO-FARM &bull; CHI PHAT</span>
+                        </div>
+
+                        <!-- Center Play Button -->
+                        <button id="play-video-btn" type="button" aria-label="Play Eco-farm Showcase Video"
+                                class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-amber-500 hover:bg-amber-400 text-forest-950 flex items-center justify-center shadow-2xl shadow-amber-500/40 transition-all duration-300 transform hover:scale-110 focus:outline-none">
+                            <i class="fa-solid fa-play text-2xl sm:text-3xl ml-1"></i>
+                        </button>
+                        <p class="mt-4 font-serif text-lg sm:text-xl font-semibold text-white drop-shadow">
+                            Watch Farm &amp; Forest Tour
+                        </p>
+                        <span class="text-xs text-earth-200/80 mt-1">Click to play HD nature preview</span>
+                    </div>
+
+                    <!-- HTML5 Video Element (Replace the src URL below with your own MP4 farm tour video file anytime) -->
+                    <video id="eco-video-player" class="w-full h-full object-cover hidden" controls playsinline preload="metadata"
+                           poster="https://op.psisvh.com/DSC06551.jpg">
+                        <source src="https://op.psisvh.com/ads.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PHOTO SLIDESHOW & ADOBE LIGHTROOM GALLERY ==================== -->
+    <section id="gallery" class="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-forest-100 text-forest-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i class="fa-solid fa-camera-retro"></i> Visual Tour
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-950">
+                Eco-Farm &amp; Homestay Gallery
+            </h2>
+            <p class="text-stone-600 text-base sm:text-lg mt-3">
+                Browse our official photo album below or swipe through quick highlights of our rooms, organic gardens, and Chi Phat landscapes.
+            </p>
+        </div>
+
+        <!-- 1. USER'S EXACT ADOBE LIGHTROOM EMBED SLIDESHOW -->
+        <div class="mb-16">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4 px-1">
+                <h3 class="font-serif text-xl sm:text-2xl font-bold text-forest-900 flex items-center gap-2.5">
+                    <i class="fa-solid fa-images text-amber-600"></i>
+                    <span>Official Photo Album Slideshow</span>
+                </h3>
+                <span class="text-xs font-medium text-stone-500 bg-earth-100 px-3 py-1 rounded-full">
+                    Interactive Full-Screen Album
+                </span>
+            </div>
+
+            <div class="rounded-3xl overflow-hidden shadow-xl border border-earth-200 bg-[#FBFBFB] p-2 sm:p-3">
+                <!-- Exact User-Provided Adobe Lightroom Embed with Responsive Aspect Ratio Support -->
+                <div class='lr_embed rounded-2xl overflow-hidden min-h-[320px] sm:min-h-[450px]' style='position: relative; padding-bottom: 50%; height: 0; overflow: hidden;'>
+                    <iframe id='iframe' 
+                            src='https://lightroom.adobe.com/embed/shares/e8f1f95091c44d96ad3074902e7dbd9e/slideshow?background_color=%23FBFBFB&color=%23707070' 
+                            frameborder='0' 
+                            allowfullscreen
+                            loading="lazy"
+                            title="Ou Pongmarn Eco-farm Adobe Lightroom Photo Slideshow"
+                            style='width:100%; height:100%; position: absolute; top:0; left:0;'>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. SUPPLEMENTARY TOUCH-FRIENDLY QUICK IMAGE CAROUSEL -->
+        <div class="bg-earth-100/70 rounded-3xl p-5 sm:p-8 border border-earth-200/90">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
+                <div>
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-forest-950">Homestay &amp; Nature Highlights</h3>
+                    <p class="text-sm text-stone-600">Swipe or use arrows to preview our 5-room retreat and surroundings</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="prev-slide-btn" type="button" aria-label="Previous Photo"
+                            class="w-11 h-11 rounded-xl bg-white hover:bg-forest-800 text-forest-900 hover:text-white border border-earth-200 shadow-sm flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button id="next-slide-btn" type="button" aria-label="Next Photo"
+                            class="w-11 h-11 rounded-xl bg-white hover:bg-forest-800 text-forest-900 hover:text-white border border-earth-200 shadow-sm flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Carousel Viewport -->
+            <div id="carousel-container" class="relative overflow-hidden rounded-2xl shadow-lg bg-forest-950 aspect-[16/10] sm:aspect-[16/8]">
+                <div id="carousel-track" class="flex h-full transition-transform duration-500 ease-out">
+                    
+                    <!-- Slide 1 -->
+                    <div class="w-full h-full shrink-0 relative">
+                        <img src="https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=1400&q=80" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/1400x700/2b5341/ffffff?text=Cozy+Timber+Eco-Rooms';"
+                             alt="Cozy Timber Eco-Homestay Rooms" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 text-white">
+                            <span class="px-3 py-1 rounded-full bg-amber-500 text-forest-950 text-xs font-bold uppercase">Accommodation</span>
+                            <h4 class="font-serif text-xl sm:text-2xl font-bold mt-2">5 Peaceful Eco-Homestay Rooms</h4>
+                            <p class="text-xs sm:text-sm text-earth-100 max-w-xl mt-1">Surrounded by lush gardens with natural airflow and serene forest views.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="w-full h-full shrink-0 relative">
+                        <img src="https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=1400&q=80" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/1400x700/366851/ffffff?text=Organic+Eco-Farm+Orchards';"
+                             alt="Organic Eco-Farm Gardens and Orchards" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 text-white">
+                            <span class="px-3 py-1 rounded-full bg-forest-600 text-white text-xs font-bold uppercase">Eco-Farming</span>
+                            <h4 class="font-serif text-xl sm:text-2xl font-bold mt-2">Organic Orchards &amp; Fresh Harvests</h4>
+                            <p class="text-xs sm:text-sm text-earth-100 max-w-xl mt-1">Walk through our sustainable permaculture beds and taste seasonal tropical fruits.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="w-full h-full shrink-0 relative">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1400&q=80" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/1400x700/1b342a/ffffff?text=Cardamom+Mountains+Chi+Phat';"
+                             alt="Morning Mist over Cardamom Mountains in Chi Phat" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 text-white">
+                            <span class="px-3 py-1 rounded-full bg-amber-500 text-forest-950 text-xs font-bold uppercase">Chi Phat Wilderness</span>
+                            <h4 class="font-serif text-xl sm:text-2xl font-bold mt-2">Cardamom Mountain Sunrise &amp; Trails</h4>
+                            <p class="text-xs sm:text-sm text-earth-100 max-w-xl mt-1">Gateway to Cambodia’s premier community-based ecotourism adventures.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Carousel Dot Indicators -->
+            <div id="carousel-dots" class="flex items-center justify-center gap-2.5 mt-5">
+                <button type="button" aria-label="Go to slide 1" class="carousel-dot w-8 h-2.5 rounded-full bg-forest-800 transition-all"></button>
+                <button type="button" aria-label="Go to slide 2" class="carousel-dot w-2.5 h-2.5 rounded-full bg-forest-300 hover:bg-forest-500 transition-all"></button>
+                <button type="button" aria-label="Go to slide 3" class="carousel-dot w-2.5 h-2.5 rounded-full bg-forest-300 hover:bg-forest-500 transition-all"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT, TELEGRAM, CALL & GOOGLE MAPS ==================== -->
+    <section id="contact" class="py-20 sm:py-24 bg-earth-100/80 border-t border-earth-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-forest-800 text-amber-400 text-xs font-bold uppercase tracking-wider mb-3">
+                    <i class="fa-solid fa-compass"></i> Plan Your Visit
+                </div>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-950">
+                    Contact &amp; Location Map
+                </h2>
+                <p class="text-stone-600 text-base sm:text-lg mt-3">
+                    Ready to book one of our 5 rooms or need directions to Chi Phat? Reach us instantly via Telegram or direct phone call.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                
+                <!-- Left Column: Direct Call & Telegram Contact Cards -->
+                <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+                    <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-lg border border-earth-200/80 space-y-6">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-forest-950">Direct Reservation &amp; Chat</h3>
+                            <p class="text-sm text-stone-600 mt-1">Fast response in English &amp; Khmer (<span class="font-khmer">ភាសាខ្មែរ</span>)</p>
+                        </div>
+
+                        <!-- Telegram Direct Action -->
+                        <div class="p-4 rounded-2xl bg-sky-50 border border-sky-200/80">
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-11 h-11 rounded-xl bg-telegram text-white flex items-center justify-center text-xl shadow-sm">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-stone-900 text-base">Chat via Telegram</h4>
+                                    <p class="text-xs text-stone-600">Message us for room rates, photos &amp; boat/taxi pickup</p>
+                                </div>
+                            </div>
+                            <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer"
+                               class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-5 rounded-xl bg-telegram hover:bg-sky-600 text-white font-bold text-sm sm:text-base shadow-md shadow-telegram/20 transition-all">
+                                <i class="fa-brands fa-telegram text-lg"></i>
+                                <span>Open Telegram Chat (+855 98 409 677)</span>
+                            </a>
+                        </div>
+
+                        <!-- Direct Click-to-Call Numbers -->
+                        <div class="space-y-3">
+                            <span class="block text-xs font-bold uppercase tracking-wider text-stone-500">Direct Phone Numbers (Tap to Call)</span>
+                            
+                            <!-- Phone 1: 098 409 677 -->
+                            <a href="tel:+85598409677" 
+                               class="flex items-center justify-between p-4 rounded-2xl bg-forest-50 hover:bg-forest-800 text-forest-950 hover:text-white border border-forest-200 transition-all duration-200 group">
+                                <div class="flex items-center gap-3.5">
+                                    <div class="w-11 h-11 rounded-xl bg-forest-800 group-hover:bg-amber-400 text-white group-hover:text-forest-950 flex items-center justify-center transition-colors">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <span class="block text-xs font-semibold text-forest-700 group-hover:text-amber-300">Smart Line</span>
+                                        <span class="block text-lg sm:text-xl font-bold tracking-wide">098 409 677</span>
+                                    </div>
+                                </div>
+                                <span class="px-3 py-1.5 rounded-lg bg-white/80 group-hover:bg-white/20 text-xs font-bold">
+                                    Call Now
+                                </span>
+                            </a>
+
+                            <!-- Phone 2: 085 556 870 -->
+                            <a href="tel:+85585556870" 
+                               class="flex items-center justify-between p-4 rounded-2xl bg-forest-50 hover:bg-forest-800 text-forest-950 hover:text-white border border-forest-200 transition-all duration-200 group">
+                                <div class="flex items-center gap-3.5">
+                                    <div class="w-11 h-11 rounded-xl bg-forest-800 group-hover:bg-amber-400 text-white group-hover:text-forest-950 flex items-center justify-center transition-colors">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <span class="block text-xs font-semibold text-forest-700 group-hover:text-amber-300">Cellcard Line</span>
+                                        <span class="block text-lg sm:text-xl font-bold tracking-wide">085 556 870</span>
+                                    </div>
+                                </div>
+                                <span class="px-3 py-1.5 rounded-lg bg-white/80 group-hover:bg-white/20 text-xs font-bold">
+                                    Call Now
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Copy Phone Helper Toast Button -->
+                        <div class="pt-2 border-t border-earth-200 flex items-center justify-between text-xs text-stone-500">
+                            <span><i class="fa-solid fa-location-dot text-forest-700 mr-1"></i> Chi Phat, Thma Bang, Koh Kong</span>
+                            <button type="button" onclick="copyPhoneNumbers()" class="text-forest-800 hover:underline font-semibold">
+                                <i class="fa-regular fa-copy mr-1"></i> Copy Numbers
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Responsive Google Maps Embed -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white rounded-3xl p-3 sm:p-4 shadow-lg border border-earth-200/80 h-full flex flex-col">
+                        <div class="flex flex-wrap items-center justify-between gap-2 px-2 pb-3">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-map-location-dot text-forest-800 text-lg"></i>
+                                <span class="font-bold text-forest-950 text-sm sm:text-base">Ou Pongmarn Eco-farm (<span class="font-khmer">ចំការអូពងមាន់ ហូមស្ទេ</span>)</span>
+                            </div>
+                            <a href="https://www.google.com/maps/search/?api=1&query=11.3813537,103.5241429" target="_blank" rel="noopener noreferrer"
+                               class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-forest-50 hover:bg-forest-800 text-xs font-bold text-forest-800 hover:text-white transition-colors">
+                                <span>Open in Google Maps</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <!-- Reliable Coordinate-Based Google Maps Container -->
+                        <div class="relative w-full flex-1 min-h-[340px] sm:min-h-[430px] rounded-2xl overflow-hidden bg-earth-100">
+                            <iframe 
+                                src="https://maps.google.com/maps?q=11.3813537,103.5241429&hl=km&z=16&output=embed" 
+                                class="absolute inset-0 w-full h-full border-0"
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                title="Google Map Location of Ou Pongmarn Eco-farm (ចំការអូពងមាន់ ហូមស្ទេ) in Chi Phat, Koh Kong"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-forest-950 text-earth-200 py-12 border-t border-forest-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start gap-2.5">
+                        <i class="fa-solid fa-leaf text-amber-400 text-lg"></i>
+                        <span class="font-serif text-xl font-bold text-white">Ou Pongmarn Eco-farm &bull; <span class="font-khmer text-lg font-semibold text-amber-300">ចំការអូពងមាន់ ហូមស្ទេ</span></span>
+                    </div>
+                    <p class="text-sm text-earth-300/80 mt-1">
+                        5-Room Eco-Farm &amp; Homestay &bull; Chi Phat, Koh Kong Province, Cambodia
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center gap-4 text-sm font-medium">
+                    <a href="tel:+85598409677" class="hover:text-amber-400 transition-colors">
+                        <i class="fa-solid fa-phone mr-1 text-amber-400"></i> 098 409 677
+                    </a>
+                    <span class="text-forest-700">|</span>
+                    <a href="tel:+85585556870" class="hover:text-amber-400 transition-colors">
+                        <i class="fa-solid fa-phone mr-1 text-amber-400"></i> 085 556 870
+                    </a>
+                    <span class="text-forest-700">|</span>
+                    <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors">
+                        <i class="fa-brands fa-telegram mr-1 text-sky-400"></i> Telegram
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-forest-900/90 text-center text-xs text-earth-400">
+                &copy; <span id="current-year"></span> Ou Pongmarn Eco-farm (<span class="font-khmer">ចំការអូពងមាន់ ហូមស្ទេ</span>). All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING QUICK CONTACT BAR (MOBILE & DESKTOP) ==================== -->
+    <div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end gap-3">
+        <!-- Expandable Quick Call Menu -->
+        <div id="floating-call-menu" class="hidden flex-col gap-2 bg-white p-3 rounded-2xl shadow-2xl border border-earth-200 mb-1 animate-fade-in">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-stone-400 px-2">Tap to Call Host</span>
+            <a href="tel:+85598409677" class="flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl bg-forest-50 hover:bg-forest-800 text-forest-950 hover:text-white font-bold text-sm transition-colors">
+                <i class="fa-solid fa-phone text-forest-700"></i> 098 409 677
+            </a>
+            <a href="tel:+85585556870" class="flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl bg-forest-50 hover:bg-forest-800 text-forest-950 hover:text-white font-bold text-sm transition-colors">
+                <i class="fa-solid fa-phone text-forest-700"></i> 085 556 870
+            </a>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <!-- Floating Telegram Button -->
+            <a href="https://t.me/+85598409677" target="_blank" rel="noopener noreferrer" aria-label="Chat on Telegram"
+               class="inline-flex items-center gap-2 px-4 py-3.5 rounded-full bg-telegram hover:bg-sky-500 text-white font-bold text-sm shadow-xl shadow-telegram/30 transition-transform hover:scale-105">
+                <i class="fa-brands fa-telegram text-xl"></i>
+                <span class="hidden sm:inline">Telegram</span>
+            </a>
+
+            <!-- Floating Call Toggle Button -->
+            <button id="floating-call-toggle" type="button" aria-label="Call Ou Pongmarn Eco-farm"
+                    class="inline-flex items-center gap-2 px-4 py-3.5 rounded-full bg-forest-800 hover:bg-forest-700 text-white font-bold text-sm shadow-xl shadow-forest-950/30 border border-forest-600 transition-transform hover:scale-105">
+                <i class="fa-solid fa-phone text-amber-400 text-base"></i>
+                <span>Call Now</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Custom Notification Toast (Replaces alert()) -->
+    <div id="toast-notification" class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 hidden px-5 py-3 rounded-2xl bg-forest-950 text-white text-sm font-medium shadow-2xl border border-amber-400/40 items-center gap-2.5">
+        <i class="fa-solid fa-circle-check text-amber-400"></i>
+        <span id="toast-message">Phone numbers copied!</span>
+    </div>
+
+    <!-- ==================== INTERACTIVE JAVASCRIPT ==================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Dynamic Footer Year
+            const yearEl = document.getElementById('current-year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+            // 2. Mobile Navigation Drawer Toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuIcon = document.getElementById('mobile-menu-icon');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    const isHidden = mobileMenu.classList.toggle('hidden');
+                    mobileMenuIcon.className = isHidden ? 'fa-solid fa-bars text-xl' : 'fa-solid fa-xmark text-xl';
+                });
+
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuIcon.className = 'fa-solid fa-bars text-xl';
+                    });
+                });
+            }
+
+            // 3. Video Emblem Showcase Player Interaction
+            const playVideoBtn = document.getElementById('play-video-btn');
+            const videoPoster = document.getElementById('video-poster');
+            const ecoVideoPlayer = document.getElementById('eco-video-player');
+
+            if (playVideoBtn && videoPoster && ecoVideoPlayer) {
+                playVideoBtn.addEventListener('click', () => {
+                    videoPoster.classList.add('opacity-0', 'pointer-events-none');
+                    ecoVideoPlayer.classList.remove('hidden');
+                    ecoVideoPlayer.play().catch(() => {
+                        // Fallback if autoplay with audio is blocked by browser
+                        ecoVideoPlayer.muted = true;
+                        ecoVideoPlayer.play();
+                    });
+                });
+            }
+
+            // 4. Touch & Button Image Carousel Slider
+            const track = document.getElementById('carousel-track');
+            const prevBtn = document.getElementById('prev-slide-btn');
+            const nextBtn = document.getElementById('next-slide-btn');
+            const dots = document.querySelectorAll('.carousel-dot');
+            const carouselContainer = document.getElementById('carousel-container');
+            
+            let currentSlide = 0;
+            const totalSlides = dots.length;
+
+            function updateCarousel(index) {
+                currentSlide = (index + totalSlides) % totalSlides;
+                if (track) {
+                    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+                }
+                dots.forEach((dot, idx) => {
+                    if (idx === currentSlide) {
+                        dot.classList.remove('w-2.5', 'bg-forest-300');
+                        dot.classList.add('w-8', 'bg-forest-800');
+                    } else {
+                        dot.classList.remove('w-8', 'bg-forest-800');
+                        dot.classList.add('w-2.5', 'bg-forest-300');
+                    }
+                });
+            }
+
+            if (prevBtn) prevBtn.addEventListener('click', () => updateCarousel(currentSlide - 1));
+            if (nextBtn) nextBtn.addEventListener('click', () => updateCarousel(currentSlide + 1));
+            dots.forEach((dot, idx) => {
+                dot.addEventListener('click', () => updateCarousel(idx));
+            });
+
+            // Touch Swipe Gestures for Mobile Carousel
+            let touchStartX = 0;
+            let touchEndX = 0;
+            if (carouselContainer) {
+                carouselContainer.addEventListener('touchstart', (e) => {
+                    touchStartX = e.changedTouches[0].screenX;
+                }, { passive: true });
+
+                carouselContainer.addEventListener('touchend', (e) => {
+                    touchEndX = e.changedTouches[0].screenX;
+                    const diff = touchStartX - touchEndX;
+                    if (Math.abs(diff) > 40) {
+                        if (diff > 0) updateCarousel(currentSlide + 1);
+                        else updateCarousel(currentSlide - 1);
+                    }
+                }, { passive: true });
+            }
+
+            // 5. Floating Call Menu Toggle
+            const floatingCallToggle = document.getElementById('floating-call-toggle');
+            const floatingCallMenu = document.getElementById('floating-call-menu');
+
+            if (floatingCallToggle && floatingCallMenu) {
+                floatingCallToggle.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    floatingCallMenu.classList.toggle('hidden');
+                    floatingCallMenu.classList.toggle('flex');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!floatingCallMenu.contains(e.target) && !floatingCallToggle.contains(e.target)) {
+                        floatingCallMenu.classList.add('hidden');
+                        floatingCallMenu.classList.remove('flex');
+                    }
+                });
+            }
+        });
+
+        // 6. Clipboard Copy Helper (Safe execCommand fallback)
+        function copyPhoneNumbers() {
+            const textToCopy = "Ou Pongmarn Eco-farm: 098 409 677 / 085 556 870";
+            const tempInput = document.createElement("textarea");
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+                document.execCommand("copy");
+                showToast("Copied: 098 409 677 / 085 556 870");
+            } catch (err) {
+                showToast("Numbers: 098 409 677 / 085 556 870");
+            }
+            document.body.removeChild(tempInput);
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast-notification');
+            const toastMsg = document.getElementById('toast-message');
+            if (!toast || !toastMsg) return;
+            toastMsg.textContent = message;
+            toast.classList.remove('hidden');
+            toast.classList.add('flex');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+                toast.classList.remove('flex');
+            }, 3200);
+        }
+    </script>
+</body>
+</html>
